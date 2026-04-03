@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+   position: sticky;
+    background-color: rgb(15, 15, 51);
+}
+h1{
+    text-align: center;
+    color: white;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(15, 15, 51);
+
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+li{
+    list-style: none;
+}
+a{
+    display: flex;
+justify-content: space-evenly;
+padding: 30px;
+
+text-decoration: none;
+color: white;
+
+}
+.hero-sec{
+text-align: center;
+/* display: flex; */
+min-height: 70vh;
+padding: 60px;
+line-height: 2;
+
+background-color: rgb(228, 227, 234);
+}
+.hero-sec button{
+padding: 8px;
+background-color: rgb(250, 246, 246);
+border: none;
+margin-top: 60px;
+
+
+}
+#one{
+    margin-top: 40px;
+}
+h2{
+    margin-top: 100px;
+
+}
+.main{
+    display: flex;
+    position: relative;
+    gap: 30px;
+    margin-left: 100px;
+
+}
+/* #mainhead{
+    margin-bottom: 00px;
+} */
+.one{
+background-color: white;
+padding: 40px;
+}
+.two{
+background-color: white;
+padding: 40px;
+}
+.three{
+background-color: white;
+padding: 40px;
+}
+footer{
+    background-color: rgb(15, 15, 51);
+
+
+}
+footer h3{
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+}
+footer a{
+    display:flex ;
+    color: yellow;
+}
+footer p{
+    color: wheat;
+    text-align: center;
+    padding-bottom: 20px;
+}
